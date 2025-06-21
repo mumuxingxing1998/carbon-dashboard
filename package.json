@@ -1,19 +1,19 @@
 {
   "name": "carbon-dashboard",
+  "homepage": "https://mumuxingxing1998.github.io/<carbon-dashboard>",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist -r git@github.com:mumuxingxing1998/carbon-dashboard.git"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.518.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "recharts": "^2.8.0"
+    "recharts": "^2.15.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.10",
